@@ -5,3 +5,9 @@
     margin: 2px;
     float: left;
 }
+#foda-img {
+    width: 75%;
+    margin: 2px;
+    position: relative;
+    left: 12%;
+}
