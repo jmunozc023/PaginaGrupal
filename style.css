@@ -5,6 +5,70 @@
     margin: 2px;
     float: left;
 }
+.navbar {
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffdd57;
+}
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+/* Estilo del logo */
+#logo-img {
+    width: 60%;
+    margin: 2px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+#logo-img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de secciones */
+section {
+    padding: 40px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    padding: 15px;
+    font-size: 1rem;
+    color: white !important;
+}
+
+/* Breadcrumb (Regresar) */
+.breadcrumb-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
 #foda-img {
     width: 75%;
     margin: 2px;
